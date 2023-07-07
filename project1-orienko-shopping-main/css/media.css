@@ -1,0 +1,131 @@
+@media(max-width:1274px){
+    /* .navbar{
+        justify-content: center;
+    } */
+    .navbar .search .search-input{
+       width: 320px;
+    }
+    .navbar .search {
+        padding: 0px;
+    }
+    .navbar .cart{
+        padding: 0px;
+    }
+}
+@media(max-width:1168px){
+    .navbar .logo{
+        width: 100px;
+        height: 30px;
+    }
+    .main-footer .footer .footer-part{
+        width: 50%;
+    }
+    .main-slider .slider2 img{
+        display: none;
+    }
+    .main-rate{
+        flex-direction: column;
+    }
+    .main-rate .rate,.main-rate .fep{
+        width: 100%;
+    }
+}
+@media(max-width:1079px){
+    .navbar2{
+        flex-direction: column;
+    }
+    .navbar2 .categories,.navbar2 .nav-link{
+        border-radius: 6px;
+        width: 100%;
+    }
+    .navbar2 .nav-link .active{
+        border-radius: 6px 0px 0px 6px;
+    }
+    .slider{
+        padding: 90px 20px;
+    }
+    .main-blog .blog{
+        width: 100%;
+    }
+}
+@media(max-width:1000px){
+    .header{
+        display: none;
+    }
+    .shipping .shipping1{
+        width: 100%;
+    }
+    .shipping .shipping1 i{
+        top: 15px;
+        left: -35px;
+    }
+}
+@media(max-width:949px){
+    .main-product .pro-card{
+        width: 45%;
+    }
+}
+@media(max-width:860px){
+    .navbar2 .nav-link ul li{
+        display: block;
+        padding-top: 10px;
+    }
+    .navbar2 .nav-link{
+        text-align: center;
+    }
+    .main-add{
+        flex-direction: column;
+    }
+    .main-add .img1,.main-add .img-part{
+        width: 100%;
+    }
+    .navbar2 .nav-link ul li .active{
+        background-color: #FA7C63;
+        border-radius: 6px;
+    }
+    .main-socialmedia{
+        display: none;
+    }
+    .navbar2{
+        padding: 0px;
+    }
+}
+@media(max-width:660px){
+    .main-product .pro-card{
+        width: 100%;
+    }
+    .main-add2 .add4,.add5{
+        width: 100%;
+    }
+    .main-slider .slider2{
+        padding: 95px 0px;
+    }
+    .product-header .mid-header{
+        flex-direction: column;
+    }
+}
+@media(max-width:619px){
+    .main-add3 .add6,.add7,.add8{
+        width: 100%;
+    }
+    .main-fp .fp{
+        width: 100%;
+    }
+    .main-footer .footer .footer-part{
+        width: 100%;
+    }
+    .main-blog .blog{
+        flex-direction: column;
+    }
+    .product-header .new-pro{
+        flex-direction: column;
+    }
+    .flex-header{
+        flex-direction: column;
+    }
+}
+@media(max-width:400px){
+    .navbar .search .search-input{
+        width: 220px;
+     }
+}
